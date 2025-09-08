@@ -1,0 +1,291 @@
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Plus+Jakarta+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@300&display=swap" rel="stylesheet">
+    <style>
+        .heading {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.heading span {
+  font-size: 2rem;
+  color: #44bb6a;
+  text-transform: uppercase;
+}
+
+.heading h3 {
+  padding-top: 1rem;
+  font-size: 3rem;
+  color: #263238;
+  text-transform: uppercase;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1.2rem 3rem;
+  cursor: pointer;
+  color: #fff;
+  background: #263238;
+  font-size: 1.7rem;
+}
+
+.btn:hover {
+  background: #44bb6a;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background: #44bb6a;
+  width: 13rem;
+  height: 100%;
+  padding: 3rem;
+}
+
+.header .logo {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.header .logo i {
+  color: #ff0;
+}
+
+.header .navbar {
+  padding: 20% 0;
+}
+
+.header .navbar a {
+  display: block;
+  font-size: 2rem;
+  margin: 1.7rem 0;
+  color: #fff;
+}
+
+.header .navbar a i {
+  color: #ff0;
+  padding-right: .5rem;
+}
+
+.header .navbar a:hover {
+  color: #ff0;
+}
+
+.header .navbar a:hover i {
+  padding-right: 2rem;
+}
+
+.header .share {
+  text-align: center;
+}
+
+.header .share a {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 1.8rem;
+  background: #fff;
+  color: #263238;
+  margin: 0 .1rem;
+}
+
+.header .share a:hover {
+  color: #fff;
+  background: #263238;
+}
+
+.header .credit {
+  text-align: center;
+  color: #fff;
+  font-size: 1.6rem;
+  padding-top: 15%;
+}
+
+.header .credit span {
+  color: #ff0;
+}
+
+#menu-btn {
+  position: fixed;
+  top: 1rem;
+  right: 2rem;
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  font-size: 2.5rem;
+  background: #44bb6a;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  z-index: 10000;
+  display: none;
+}
+
+#menu-btn.fa-times {
+  background: #fff;
+  color: #263238;
+}
+
+.sidenav {
+    height: 100%;
+    width: 300px; 
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: #44bb6a;
+    overflow-x: hidden; 
+    padding-top: 150px;
+    transition: 0.5s;
+}
+title{
+            font-family: 'Lexend Peta', sans-serif;
+            font-size:50px;
+            margin-top:-70px;
+            margin-left:20px;
+            margin-bottom:50px;
+}
+  .main {
+  margin-left: 350px; /* Same as the width of the sidenav */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+       /* .mainheading{
+            font-family: 'Josefin Slab', serif;
+            font-size:50px
+        }*/
+        .subhead{
+            font-size: 40px;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            
+
+        }
+        .content{
+            font-size: 18px;
+            font-family: 'Manrope', sans-serif;
+            margin-bottom:24px;
+            padding-left:80px
+        }
+        .uses{
+            font-size: 30px;
+            font-family: 'Manrope', sans-serif;
+            padding-left:40px
+        }
+        .jobs{
+            padding-bottom: 20px;
+        }
+       
+        .image1 {
+            display: block;
+            height: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .image2 {
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+            height:400px;
+        }
+        .image3 {
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+            height:350px;
+        }
+        .but-container {
+            /* border: 1px solid black; */
+            height: max-content;
+           
+            margin-right: auto;
+            margin-left: auto;
+            display:flex;
+            justify-content: space-between;
+        }
+
+        .but-container a{
+           text-decoration: none;
+           color: white;
+           background: #44bb6a;
+           padding: 7px 10px;
+           border-radius: 4px;  
+           font-size: 19px;
+           margin: 60px;
+        }
+        .but-container a:hover{
+           background: rgb(220 53 69 / 85%);
+        }
+        .but-container a:focus{
+            outline: 3px solid rgb(220 53 69 / 50%);
+        
+        }
+    </style>
+</head>
+<body>
+
+<div id="menu-btn" class="fas fa-bars"></div>
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-graduation-cap"></i> educa </a>
+    
+    <nav class="navbar">
+            <a href="#home"> <i class="fas fa-angle-right"></i> home </a>
+            <a href="#category"> <i class="fas fa-angle-right"></i> category </a>
+            <a href="#about"> <i class="fas fa-angle-right"></i> about </a>
+            <a href="#contact"> <i class="fas fa-angle-right"></i> contact </a>
+    </nav>
+    
+    <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+    </div>
+</header>
+    <div class="main">
+    
+    <br><br>
+    <div class="subhead">What are Boolean Data Type in Python?</div>
+    
+    <div class="content">
+    <p>Data type with one of the two built-in values, True or False. Boolean objects that are equal to True are truthy (true), and those equal to False are falsy (false). But non-Boolean objects can be evaluated in a Boolean context as well and determined to be true or false. It is denoted by the class bool.</p>
+    <img src="images/Screenshot (16).png" class="image1">  
+    </div>
+    <div class="subhead">What are Set Data Type in Python</div>
+
+    <div class="content">
+      <p><li>In Python, a Set is an unordered collection of data types that is iterable, mutable and has no duplicate elements. The order of elements in a set is undefined though it may consist of various elements.&nbsp;Create a Set in Python
+        Sets can be created by using the built-in set() function with an iterable object or a sequence by placing the sequence inside curly braces, separated by a ‘comma’. The type of elements in a set need not be the same, various mixed-up data type values can also be passed to the set. </p></li>
+    </div>
+        <img src="images/Screenshot (17).png" class="image2">
+    <div class="subhead">Dictionary Data Type in python</div>
+    <div class="content">
+        <p>
+            A dictionary in Python is an unordered collection of data values, used to store data values like a map, unlike other Data Types that hold only a single value as an element, a Dictionary holds a key: value pair. Key-value is provided in the dictionary to make it more optimized. Each key-value pair in a Dictionary is separated by a colon : , whereas each key is separated by a ‘comma’.
+        </p>
+        <p>
+            Create a Dictionary-
+            In Python, a Dictionary can be created by placing a sequence of elements within curly {} braces, separated by ‘comma’. Values in a dictionary can be of any datatype and can be duplicated, whereas keys can’t be repeated and must be immutable. The dictionary can also be created by the built-in function dict(). An empty dictionary can be created by just placing it in curly braces{}. Note – Dictionary keys are case sensitive, the same name but different cases of Key will be treated distinctly. 
+        </p>
+    </div>
+    <img src="images/Screenshot (18).png" class="image3">
+<div class="but-container">
+    
+        <a href="datatypes.html">&laquo; Previous</a>
+        <a href="index.html">Next &raquo;</a>
+
+</div>
+</div>
+</body>
+</html>

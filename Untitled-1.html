@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Plus+Jakarta+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@300&display=swap" rel="stylesheet">
+    <style>
+        .sidenav {
+            height: 100%;
+            width: 350px; 
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background: #ecd7fc; 
+            overflow-x: hidden; 
+            padding-top: 150px;/padding for all contents that is above head/
+            transition: 0.5s;
+        }
+
+        .sidenav a {
+            padding: 8px 8px 50px 32px;/for around padding/
+            text-decoration: none;
+            font-size: 25px;
+            color: black;
+            display: block;
+            transition: 0.3s;
+            font-family: 'Bitter', serif;
+            
+        }
+
+        .sidenav a:hover {
+            color: #7a53ef;
+        }
+
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+        .title{
+            font-family: 'Lexend Peta', sans-serif;
+            font-size:50px;
+            margin-top:-70px;
+            margin-left:20px;
+            margin-bottom:50px;
+        }
+        .main {
+  margin-left: 350px; /* Same as the width of the sidenav */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+       /* .mainheading{
+            font-family: 'Josefin Slab', serif;
+            font-size:50px
+        }*/
+        .subhead{
+            font-size: 40px;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            
+
+        }
+        .content{
+            font-size: 18px;
+            font-family: 'Manrope', sans-serif;
+            margin-bottom:24px;
+            padding-left:80px
+        }
+        .uses{
+            font-size: 30px;
+            font-family: 'Manrope', sans-serif;
+            padding-left:40px
+        }
+        .jobs{
+            padding-bottom: 20px;
+        }
+        .image{
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+            height:550px;
+        }
+    </style>
+</head>
+<body>
+    <!--<script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "350px";
+            document.getElementById("main").style.marginLeft = "350px";
+        }
+        
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+
+    </script>-->
+    <div id="mySidenav" class="sidenav">
+        <!--<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>-->
+        <div class="title">CODER'S CORNER</div>
+        <a href="#">HOME</a>
+        <a href="#">SERVICES</a>
+        <a href="#">ABOUT</a>
+        <a href="#">CONTACT</a>
+      </div>
+      <span onclick="openNav()">open</span>
+      <div class="main">
+    <!--<div class="mainheading">PYTHON</div>-->
+    <img src="pi.png" class="image">
+    <br><br>
+    <div class="subhead">What is Python?</div>
+    <div class="content">
+    <p>Python is an open-source, object-oriented, high-level, general purpose programming language. 
+        Since this definition may look overwhelming, let's take a
+         look at each characteristic separately to understand what each of them means:</p>
+         <ul>
+            <li>Open-source: it's free and available for further improvements, like adding helpful features or fixing bugs</li>
+            <br><li>Object-oriented: based not on functions but on objects with defined attributes and methods</li>
+            <br><li>High-level: human-friendly rather than computer-friendly</li>
+            <br><li>General purpose: can be used to create any kind of programs</li>
+        </ul>
+    </div>
+    <div class="subhead">What is Python Used For? 7 Python Uses</div>
+    <br>
+    <div class="uses">1. Python for Web Development</div>
+    <div class="content">
+    <p>While for building the front end of a website (the part of a website accessible to its users), we would mostly use the languages such as HTML, CSS, and JavaScript, for its back end (the invisible part of a website), we would often opt for Python. <br>
+        <br>For these purposes, Python is used for some common frameworks (like Django or Flask) with specialized built-in modules that enable sharing data with servers, processing information, accessing databases, URL routing, content management, and maintaining website security.<br>
+        <br>Among the giant websites and applications created using Python, it's worth mentioning Google, Facebook, Instagram, YouTube, Dropbox, and Reddit.
+    </p>
+</div>
+<br>
+    <div class="uses">2. Python for Data Analysis</div>
+    <div class="content">
+    <p>Data has become a truly precious asset in any modern industry, and most companies are interested in gathering, manipulating, and analyzing relevant data to extract meaningful business insights from it. And this is where Python goes beyond any competition. <br>
+        <br>Python is particularly valuable because, apart from its comprehensive standard library, it provides an impressive collection of additional modules designed specifically for analytical purposes. <br>
+        <br>The most famous Python libraries for conducting data analysis are pandas and NumPy. These tools allow you to do almost everything with your data, such as cleaning and wrangling it, exploring statistics, or visualizing hidden trends in your data.<br>
+        <br>Apart from these two libraries, you can use plenty of others  for various data-related tasks, such as data visualization, web scraping, or hypothesis testing.
+    </p>
+</div>
+<br>
+    <div class="uses">3. Python for Software Development</div>
+    <div class="content">
+    <p>Besides its many-sided application in data science areas, Python is used at each stage of software development, including build control, automated continuous compilation, prototyping, bug tracking, testing, and software maintenance. <br>
+        <br>The flexibility and, at the same time, power of this programming language allows using it for creating both relatively simple and highly-advanced multi-protocol applications or those that involve complex numeric computations. <br>
+        <br>With Python, we can build audio or video programs based on AI or ML techniques, APIs (application programming interfaces), GUIs (graphical user interfaces), or any other type of software.
+    </p>
+</div>
+<br>
+    <div class="uses">4. Python for Machine Learning</div>
+    <div class="content">
+    <p>Machine learning (ML) is at the core of the majority of data science tasks. It represents a field of artificial intelligence (AI) concerned with using algorithms to enable machines to learn patterns and trends from historical data to make predictions on unknown data. <br>
+        <br>Using ML techniques, we can create models that can accurately predict the customer churn rate of the company, estimate the risk of a person having a certain disease, identify the optimal positioning of taxi vehicles,etc. <br>
+        <br>With Python, we can build an ML model using as few as three lines of code (see an example of such a model for predicting fraudulent bank transactions). Even though behind those few lines of code, there are complex processes and calculations, Python ML libraries do most of the work under the hood, which significantly facilitates the user's task. The most common libraries are scikit-learn, Keras, TensorFlow, and PyTorch.
+    </p>
+    </div>
+    <br>
+    <div class="uses">5. Python for Task Automation/Scripting</div>
+    <div class="content">
+    <p>Python is a great tool for writing programs to automate different repetitive tasks. This process is also called scripting. <br>
+        <br>In particular, you can do scripting to work with files and folders. For example, you can create, rename, convert, split, merge, or delete files, check them for errors, duplicates, or certain text patterns, or update the file content. <br>
+        <br>You can also use Python automation to search and download information from the internet, complete and submit online forms, and send regular notifications or emails. <br>
+        <br>Doing all these things manually, apart from being extremely boring, would be very time-consuming and error-prone. Using Python scripts to perform such actions in just minutes would significantly increase your efficiency and save you precious time and effort for more creative tasks.
+    </p>
+    </div>
+
+    <div class="subhead">Why Learn to Use Python?</div>
+    <div class="content">
+    <p>
+        The benefits of knowing and using Python clearly show why it's a great choice for learning, especially as your first programming language. However, why would you personally decide to learn it? Here are some reasons that can convince you more:
+    </p>
+    <ul>
+        <li>It can open you numerous opportunities to start a new career in many fields.</li>
+        <br><li>It can become a handy supplementary tool for your current job. For example, using Python you can automate many monotonous tasks like renaming many files at once, converting files to another format, or creating and updating work reports.</li>
+        <br><li>It can make you stand out from the crowd even when applying for job positions that don't require knowing Python directly, </li>
+        <br><li>Python-related professions are currently very well-paid and highly in-demand, and this trend is only going to grow in the future. </li>
+    </ul>
+    </div>
+
+    <div class="subhead">What Jobs Need Python?</div>
+    <div class="content">
+    <p>Many professions need Python directly for their everyday work.</p>
+    <ul>
+        <li class="jobs">Data scientist</li>
+        <li class="jobs">Data analyst</li>
+        <li class="jobs">Data engineer</li>
+        <li class="jobs">Machine learning engineer</li>
+        <li class="jobs">Data journalist</li>
+        <li class="jobs">Data architect</li>
+        <li class="jobs"> Full-stack web developer</li>
+        <li class="jobs"> Back-end web developer</li>
+        <li class="jobs">DevOps engineer</li>
+        <li > Software engineer</li>
+    </ul>
+    <p>
+        In addition, some other jobs may require Python skills for conducting certain tasks, like analyzing data, automating repetitive tasks, or monitoring market behavior: business analysts, bankers, and scientists are just a few examples. 
+    </p>
+</div>
+</div>
+</body>
+</html>
