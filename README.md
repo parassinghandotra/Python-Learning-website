@@ -46,8 +46,4 @@ cd python-learning-website
 
 ---
 
-## 📸 Screenshots
 
-*Add screenshots of your website here after deployment (optional).*
-Example:
-!\[H
