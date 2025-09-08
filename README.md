@@ -29,13 +29,6 @@ Python-learning-Website-main/
 
 ---
 
-## 🌐 Live Demo
-
-Check out the live version here:
-👉 [Python Learning Website](https://USERNAME.github.io/python-learning-website/)
-*(replace `USERNAME` with your GitHub username after deployment)*
-
----
 
 ## 🛠️ Installation & Setup
 
